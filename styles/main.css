@@ -1,0 +1,40 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html,
+body {
+  @apply h-screen text-black;
+}
+
+body {
+  background: white;
+}
+
+#__next {
+  @apply h-screen flex flex-col;
+}
+
+a,
+a:visited {
+  @apply p-3 inline-block text-center align-middle text-white uppercase;
+}
+
+
+.bg-color{
+  background: #6C63FF;
+}
+
+.color-text{
+  color: #6C63FF;
+}
+
+.bg-input{
+  background: #FAFAFC;
+}
+
+.border-color{
+  border: 1px solid #E6E6F0;
+}
